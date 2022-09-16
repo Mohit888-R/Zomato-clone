@@ -8,187 +8,187 @@ const Data = [
       id : "1",
       locality : "C Scheme",
       places : 352,
-      href:'/'
+      href:'/order'
 
   },
   {
       id : "2",
       locality :  "Malviya Nagar"   ,
       places : 1095 ,
-      href:'/'
+      href:'/order'
 
   },
   {
       id : "3",
       locality :    "Tonk Road" ,
       places :  340,
-      href:'/'
+      href:'/order'
 
   },
   {
       id : "4",
       locality :  "Vaishali Nagar"   ,
       places :  1200,
-      href:'/'
+      href:'/order'
 
   },
   {
       id : "5",
       locality :    "MI Road" ,
       places :  148,
-      href:'/'
+      href:'/order'
 
   },
   {
       id : "6",
       locality : "Mansarovar"    ,
       places :  1462,
-      href:'/'
+      href:'/order'
 
   },
   {
       id : "7",
       locality :  "Raja Park"   ,
       places :  469,
-      href:'/'
+      href:'/order'
 
   },
   {
       id : "8",
       locality :  "Bani Park"   ,
       places :  143,
-      href:'/'
+      href:'/order'
 
   },
   {
       id : "9",
       locality :  "Bais Godam"   ,
       places :  141,
-      href:'/'
+      href:'/order'
 
   },
   {
       id : "10",
       locality :  "Adarsh Nagar"   ,
       places :  158,
-      href:'/'
+      href:'/order'
 
   },{
       id : "11",
       locality :  "Ajmer Highway " ,
       places :  173,
-      href:'/'
+      href:'/order'
 
   },{
       id : "12",
       locality :   "Lal Kothi"  ,
       places :  122,
-      href:'/'
+      href:'/order'
 
   },{
       id : "13",
       locality :   "Gopalbari"  ,
       places :  68,
-      href:'/'
+      href:'/order'
 
   },{
       id : "14",
       locality :  "Sodala"   ,
       places :  383,
-      href:'/'
+      href:'/order'
 
   },{
       id : "15",
       locality :   "Shyam Nagar"  ,
       places :  355,
-      href:'/'
+      href:'/order'
 
   },{
       id : "16",
       locality :  "Sindhi Camp"   ,
       places :  119,
-      href:'/'
+      href:'/order'
 
   },{
       id : "17",
       locality :   "Pink City"  ,
       places :  278,
-      href:'/'
+      href:'/order'
 
   },{
       id : "18",
       locality :   "Amer"  ,
       places :  35,
-      href:'/'
+      href:'/order'
 
   },{
       id : "19",
       locality : "Civil Lines"    ,
       places :  75,
-      href:'/'
+      href:'/order'
 
   },{
       id : "20",
       locality :  "Chitrakoot" ,
       places :  350,
-      href:'/'
+      href:'/order'
 
   },{
       id : "21",
       locality : "Narayan Singh Circle Restaurants"    ,
       places : 23 ,
-      href:'/'
+      href:'/order'
 
   },{
       id : "22",
       locality : "Sikar Road"    ,
       places :  363,
-      href:'/'
+      href:'/order'
 
   },{
       id : "23",
       locality :   "Vidhyadhar Nagar Restaurants"  ,
       places :  384,
-      href:'/'
+      href:'/order'
 
   },{
       id : "24",
       locality :   "Bapu Nagar"  ,
       places :  112,
-      href:'/'
+      href:'/order'
 
   },{
       id : "25",
       locality :   "Amer Road"  ,
       places :  145,
-      href:'/'
+      href:'/order'
 
   },{
       id : "26",
       locality :  "Jhotwara"   ,
       places :  1326,
-      href:'/'
+      href:'/order'
 
   },
   {
       id : "27",
       locality :    "Sharstri Nagar" ,
       places :  228,
-      href:'/'
+      href:'/order'
 
   },
   {
       id : "28",
       locality :   "Kukas"  ,
       places :  48,
-      href:'/'
+      href:'/order'
 
   },
   {
       id : "29",
       locality :  "jawahar Nagar"   ,
       places :  107,
-      href:'/'
+      href:'/order'
   }
 ]
 

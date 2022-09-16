@@ -7,7 +7,7 @@ function Card(props) {
     const [show, setShow] = useState(false);
   return (
     <div>
-        <div className='border  rounded-xl p-3 px-5 md:mb-5 mt-2'>
+        <div className='border  rounded-xl p-3 px-5 md:mb-5 mt-2 hover:shadow-sm'>
             <div onClick={()=>setShow(!show)} className="flex">
             <p  className="md:text-xl text-md   md:font-medium font-bold text-gray-800 flex flex-1 cursor-default">{props.question} </p>
             {

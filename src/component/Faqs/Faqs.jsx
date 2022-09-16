@@ -28,7 +28,7 @@ function Faqs() {
         <div>
             {
                 data.map((link,i)=> 
-                    <Card key={link.i} question={link.question} href={link.href} answer={link.ans}/>                
+                    <Card key={link.i} question={link.question} href={link.href} answer={link.ans} />                
                 )
             }
         {/* <Card /> */}

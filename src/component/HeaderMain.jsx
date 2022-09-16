@@ -1,6 +1,6 @@
 import React from 'react'
-import Input from "./Input";
-import "./Header.css";
+import Input from "./Header/Input";
+import "./Header/Header.css";
 import { useState } from 'react';
 import { Transition } from "@headlessui/react";
 import { Link } from 'react-router-dom';
@@ -16,8 +16,8 @@ function Header() {
                 <li> <Link to="#" className='hover:bg-gray-500 hover:opacity-70 text-white block px-3 py-2 rounded-md text-base font-medium'>Get The App</Link> </li>
                 <li> <Link to="/inverstor-relation" className='hover:bg-gray-500 hover:opacity-70 text-white block px-3 py-2 rounded-md text-base font-medium'>Investor Relations</Link></li>
                 <li> <Link to="/add-restaurant" className='hover:bg-gray-500 hover:opacity-70 text-white block px-3 py-2 rounded-md text-base font-medium'>Add restaurant</Link></li>
-                <li> <Link to="/login" className='hover:bg-gray-500 hover:opacity-70 text-white block px-3 py-2 rounded-md text-base font-medium'>Log in</Link></li>
-                <li> <Link to="/register" className='hover:bg-gray-500 hover:opacity-70 text-white block px-3 py-2 rounded-md text-base font-medium'>Sign up</Link></li>
+                <li> <Link to="/" className='hover:bg-gray-500 hover:opacity-70 text-white block px-3 py-2 rounded-md text-base font-medium'>Logout</Link></li>
+                
             </ul>
         </header>
         
@@ -78,8 +78,7 @@ function Header() {
               <a href="/" className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium'>Get The App</a>
                   <Link to="/" className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium'>Inverstor Relations</Link>
                   <Link to="/inverstor-relation" className='hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium'>Add restaurant</Link>
-                  <Link to="/login" className=' hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium'>Log in</Link>
-                  <Link to="/register" className='bg-blue-900 hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium'>Sign up</Link>
+                  <Link to="/" className=' hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium'>Logout</Link>
               </div>
           </div>
         )}

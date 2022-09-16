@@ -6,7 +6,7 @@ const data = [
         id:1,
         image : "https://www.posist.com/restaurant-times/wp-content/uploads/2016/12/restaurant-delivery-orders-1024x683.jpg",
         title : "Order Online",
-        para : "stay home and order to your doorstep"
+        para : "Stay home and order to your doorstep"
     },
     {
         id:2,
@@ -25,7 +25,7 @@ const data = [
 
 function Service() {
   return (
-    <div className='md:flex md:gap-4 md:justify-evenly md:mt-5 grid grid-cols-2 px-10'>
+    <div className='md:flex md:gap-4 md:justify-evenly md:mt-5 grid grid-cols-2 py-10 w-10/12 m-auto justify-center'>
         {/* <Card image="" title="" para=""/> */}
         {
             data.map((list)=>

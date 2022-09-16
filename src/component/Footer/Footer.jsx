@@ -90,7 +90,7 @@ const datas = [
 
 function Footer() {
   return (
-    <div className='bg-gray-100 w-full py-16'>
+    <div className='bg-gray-100 w-full py-2'>
         <div className='w-10/12 justify-center m-auto'>
         {/* // first raw of footer  */}
         <div className='flex '>
