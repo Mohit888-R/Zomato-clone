@@ -25,7 +25,7 @@ const data = [
 
 function Service() {
   return (
-    <div className='md:flex md:gap-4 md:justify-evenly md:mt-5 grid grid-cols-2 py-10 w-10/12 m-auto justify-center'>
+    <div className='sm:gap-6 md:flex m-auto justify-center px-10 '>
         {/* <Card image="" title="" para=""/> */}
         {
             data.map((list)=>

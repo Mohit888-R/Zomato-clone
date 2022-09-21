@@ -8,7 +8,7 @@ import Footer from "./component/Footer/Footer";
 import Register from './component/Account/Register';
 import Login from "./component/Account/Login";
 import Home from "./component/Home";
-import Order from './component/Order';
+import Order from './component/Order/Order';
 import Places from './component/Places';
 import HomeMain from "./component/HomeMain";
 

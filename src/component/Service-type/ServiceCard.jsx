@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 function ServiceCard(props) {
   return (
     <Link to="/order">
-    <div className=' service-type border-2 border-none bg-gray-50  shadow-md  inline-block rounded-lg m-2 overflow-hidden w-96'>
+    <div className=' service-type border-2 border-none bg-gray-50 inline-block shadow-md  rounded-lg m-2 overflow-hidden lg:w-72 '>
       <div className='overflow-hidden p-2'>
         <img src={props.image} alt="img" className='w-96 rounded-lg pb-2 hover:scale-105 transition duration-500 ease-in-out ' />
         </div>
