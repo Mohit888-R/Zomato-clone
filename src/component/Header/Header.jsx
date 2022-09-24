@@ -12,7 +12,7 @@ function Header() {
   return (
     <div className="header-section text-xl h-96 pb-5 overflow-auto" >
      <header className="header grid-cols-1 py-5 mx-20 text-white hidden md:block" >
-            <ul className="nav-bar flex m-auto justify-end  gap-8 text-lg">
+            <ul className="nav-bar flex m-auto justify-end  lg:gap-8 text-lg">
                 <li> <Link to="#" className='hover:bg-gray-500 hover:opacity-70 text-white block px-3 py-2 rounded-md text-base font-medium'>Get The App</Link> </li>
                 <li> <Link to="/inverstor-relation" className='hover:bg-gray-500 hover:opacity-70 text-white block px-3 py-2 rounded-md text-base font-medium'>Investor Relations</Link></li>
                 <li> <Link to="/add-restaurant" className='hover:bg-gray-500 hover:opacity-70 text-white block px-3 py-2 rounded-md text-base font-medium'>Add restaurant</Link></li>
@@ -23,10 +23,11 @@ function Header() {
         
 
         <header className=' block md:hidden p-2'>
+          <div>
             <button 
             onClick={()=>setIsOpen(!isOpen)}
             type='button'
-            className=' inline-flex item-center  justify-start p-2 rounded-sm text-white bg-gray-900 '
+            className=' inline-flex item-center justify-start p-2 rounded-sm text-white '
             aria-controls='mobile-menu' 
             aria-expanded="false">
                 {!isOpen?(
@@ -63,6 +64,8 @@ function Header() {
                   </svg>
                 )}
             </button>
+
+            </div>
             <Transition
         show={isOpen}
         enter="transition ease-out duration-100 transform"

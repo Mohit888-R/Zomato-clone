@@ -11,6 +11,9 @@ import Home from "./component/Home";
 import Order from './component/Order/Order';
 import Places from './component/Places';
 import HomeMain from "./component/HomeMain";
+import Delivery from './component/Order/Delivery/Delivery';
+import Dining from './component/Order/Dining/Dining';
+import Nightlife from './component/Order/nightlife/Nightlife';
 
 import {BrowserRouter,Route,Routes} from "react-router-dom";
 import {UserAuthContextProvider} from "./context/AuthContext";
@@ -22,14 +25,18 @@ function App() {
       <BrowserRouter>
         {/* <Register/>
        <Login/> */}
-
       <Routes>
         <Route path='/' element={<Home/>}/> 
-        <Route path='/login' element={<Login/>}/> 
-        <Route path='/register' element={<Register/>}/> 
-        <Route path='/order' element={<Order/>}/> 
-        <Route path='/places' element={<Places/>}/> 
-        <Route path='/home' element={<HomeMain/>}/>
+        <Route path='login' element={<Login/>}/> 
+        <Route path='register' element={<Register/>}/> 
+        <Route path='order/' element={<Order/>}>
+          <Route path="delivery" element={<Delivery/>}/>
+          <Route path="dining" element={<Dining/>}/>
+          <Route path="nightlife" element={<Nightlife/>}/>
+        </Route> 
+        <Route path='places' element={<Places/>}/> 
+        <Route path='home' element={<HomeMain/>}/>
+        
       </Routes>
 
     

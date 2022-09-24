@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import Search from "./Input";
 import { Transition } from "@headlessui/react";
+import {Link}from "react-router-dom";
 
 function Header() {
     const [isOpen,setIsOpen] = useState(false);
@@ -10,23 +11,22 @@ function Header() {
             <a href="/" className='px-10 self-center'>
             <img src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png" alt="zomato-logo" className='w-32'/>
             </a>
-            <div className='md:block hidden'>
+            <div className='md:block hidden flex-1'>
             <Search/>
             </div>
             <div className='self-center text-gray-600'>
-            <button className='px-5 border border-red-400 p-2 rounded-md mx-5 bg-gray-50 hover:bg-gray-100 active:scale-105 hover:border-black transform duration-200 ease-in-out'>Log in</button>
-            <button className='px-5 border border-red-400 p-2 rounded-md bg-gray-50 hover:bg-gray-100 active:scale-105 hover:border-black transform duration-200 ease-in-out'>Sign up</button>
+            <Link to='/login'> <button className='px-5 border  p-2 rounded-md mx-5 bg-gray-50 hover:bg-gray-100 active:scale-105 hover:text-black hover:border-black transform duration-200 ease-in-out'>  Log in </button> </Link>
+            <Link to='/register'> <button className='px-5 border  p-2 rounded-md bg-gray-50 hover:bg-gray-100 active:scale-105 hover:text-black hover:border-black transform duration-200 ease-in-out'>  Sign up  </button> </Link>
             </div>
-        </div>
-
+        </div> 
 
         {/* responsive */}
         <header className=' block md:hidden p-2'>
-        <div className='flex px-10'>
+        <div className='flex lg:px-10'>
             <button 
             onClick={()=>setIsOpen(!isOpen)}
             type='button'
-            className=' inline-flex item-center  justify-start p-2 rounded-sm text-white bg-gray-700 '
+            className=' inline-flex item-center justify-start p-2 rounded-sm text-black  '
             aria-controls='mobile-menu' 
             aria-expanded="false">
                 {!isOpen?(
